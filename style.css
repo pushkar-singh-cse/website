@@ -1,0 +1,84 @@
+nav{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	background-color: #ffffff;
+	box-shadow: 4px 4px 25px rgba(0,0,0,0.2);
+	padding: 0px 5%;
+	background-color: #050505;
+	font-family: "Lucida Console", Courier, monospace;
+	border-radius: 10px;
+}
+nav p{
+    color:white;
+}
+
+nav ul{
+  display: flex;
+}
+li{
+     display: inline;
+     width: 80px;
+     text-align: center;
+     float: right;
+     border-left: 1px solid #bbb;
+}
+.stock_name {
+    text-align: center;
+    font-family: "Lucida Console", Courier, monospace;
+    padding: 4px;
+    margin:2px;
+    top:45%;
+    left:42%;
+    position: fixed;
+    box-shadow: 10px 10px 25px rgba(0.2,0.2,0.2,0.2);
+    border-radius: 25px;
+    border: 2px solid #050505;
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: #ffffff;
+}
+
+footer {
+  display: inline-block;
+  justify-content: center;
+  background-color: #050505;
+  color: white;
+  box-shadow: 25px 4px 4px rgba(0,0,0,0.2);
+  position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  width: 100%;
+
+}
+.btn{
+	border:2px solid #373636;
+	color: #373636;
+	}
+footer p{
+  text-align: center;
+  color:white;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.graphs {
+  margin: auto;
+  width: 90%;
+  border: 3px solid black;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+  display: block;
+}
+
+div img{
+    height:170px
+    max-width:500px;
+}
+
+div.h1 {
+  background-color: black;
+}

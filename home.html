@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel= "stylesheet" type= "text/css" href= "style.css">
+</head>
+<body bgcolor="#397ff7" background="25335.jpg">
+<nav>
+		<!--logo-->
+		<p>Stock Price Prediction</p>
+		<!--menu-->
+		<ul>
+			<li><a href="team.html">Team</a></li>
+		</ul>
+		</nav>
+<div class="stock_name" >
+        <form method="POST" action="{{url_for('home')}}">
+            <label for="select">Select a Company</label><br><br>
+            <select id="select" name="select" select name="forma" onchange="location = this.value;">
+                <option value="Apple.html">Apple</option>
+                <option value="Google.html">Google</option>
+                <option value="Microsoft.html">Microsoft</option>
+                <option value="Amazon.html">Amazon</option>
+            </select>
+            <!---- <button class="btn">Submit</button> --->
+        </form>
+    </div>
+</body>
+<footer>
+    <div>
+      <p>Created by Team ENIGMA</p>
+    </div>
+  </footer>
+</html>
